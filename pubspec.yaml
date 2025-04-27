@@ -1,0 +1,19 @@
+name: flutter_agora_web_remote_video_bug
+description: A minimal app reproducing Agora remote video rendering bug on Flutter Web.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  agora_rtc_engine: ^6.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
